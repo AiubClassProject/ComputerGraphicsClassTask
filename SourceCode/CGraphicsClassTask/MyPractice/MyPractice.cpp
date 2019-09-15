@@ -1,13 +1,26 @@
-// MyPractice.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
-#include <iostream>
-using  namespace std;
+#include <GL/glut.h>
 
-int main()
+void displayMe(void)
 {
-	cout << "Hello World\n";
-    return 0;
+	glClear(GL_COLOR_BUFFER_BIT);
+	glBegin(GL_POLYGON);
+	glVertex3f(0.0, 0.0, 0.0);
+	glVertex3f(0.5, 0.0, 0.0);
+	glVertex3f(0.5, 0.5, 0.0);
+	glVertex3f(0.0, 0.5, 0.0);
+	glEnd();
+	glFlush();
 }
 
+int main(int argc, char** argv)
+{
+	glutInit(&argc, argv);
+	glutInitDisplayMode(GLUT_SINGLE);
+	glutInitWindowSize(300, 300);
+	glutInitWindowPosition(100, 100);
+	glutCreateWindow("Hello world :D");
+	glutDisplayFunc(displayMe);
+	glutMainLoop();
+	return 0;
+}
