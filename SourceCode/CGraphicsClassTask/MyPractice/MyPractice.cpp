@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include <GL/glut.h>
 
-void displayMe(void)
+/*void displayMe(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glBegin(GL_POLYGON);
@@ -11,9 +11,9 @@ void displayMe(void)
 	glVertex3f(0.0, 0.5, 0.0);
 	glEnd();
 	glFlush();
-}
+}*/
 
-int main(int argc, char** argv)
+/*int main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE);
@@ -23,4 +23,4 @@ int main(int argc, char** argv)
 	glutDisplayFunc(displayMe);
 	glutMainLoop();
 	return 0;
-}
+}*/
