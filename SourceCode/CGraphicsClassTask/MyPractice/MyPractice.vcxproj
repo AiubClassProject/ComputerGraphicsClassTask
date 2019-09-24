@@ -146,6 +146,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lab-1.cpp" />
+    <ClCompile Include="Lab-2-Task1.cpp" />
+    <ClCompile Include="Lab-2-Task2.cpp" />
     <ClCompile Include="MyPractice.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

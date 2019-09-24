@@ -4,7 +4,7 @@
 
 const float DEG2RAD = 3.14159 / 180;
 
-void displayMe(void)
+void displayMeLab1(void)
 {
 	// Set Background Color
 	glClearColor(1.0, 1.0, 1.0, 1.0);
@@ -45,11 +45,15 @@ void displayMe(void)
 	//Line
 	glBegin(GL_LINES);
 	glColor3f(255, 0, 0);
+
 	glVertex2f(-0.2, -0.5);
 	glVertex2f(-0.7, -0.5);
 
 	glVertex2f(-0.2, -0.5);
-	glVertex2f(-0.7, -0.5);
+	glVertex2f(-0.7, -0.1);
+
+	glVertex2f(-0.2, -0.1);
+	glVertex2f(-0.7, -0.1);
 	glEnd();
 
 
@@ -77,12 +81,12 @@ void displayMe(void)
 }
 
 
-int main(int argc, char** argv)
+/*int main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
-	glutInitWindowSize(1000, 600);
+	glutInitWindowSize(320, 320);
 	glutCreateWindow("Lab-1");
-	glutDisplayFunc(displayMe);
+	glutDisplayFunc(displayMeLab1);
 	glutMainLoop();
 	return 0;
-}
+}*/
