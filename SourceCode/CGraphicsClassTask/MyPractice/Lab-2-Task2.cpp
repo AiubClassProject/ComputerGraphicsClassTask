@@ -75,6 +75,7 @@ void displayMeLab2Task2(void)
 }
 
 
+/*
 int main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
@@ -83,4 +84,4 @@ int main(int argc, char** argv)
 	glutDisplayFunc(displayMeLab2Task2);
 	glutMainLoop();
 	return 0;
-}
+}*/
