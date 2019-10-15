@@ -198,7 +198,7 @@ void AiubDBuilding(void)
 }
 
 
-int main(int argc, char** argv)
+/*int main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
 	glutInitWindowSize(320, 320);
@@ -206,4 +206,4 @@ int main(int argc, char** argv)
 	glutDisplayFunc(AiubDBuilding);
 	glutMainLoop();
 	return 0;
-}
+}*/

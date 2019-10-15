@@ -88,7 +88,8 @@ void displayMeLab2Task1(void)
 }
 
 
-/*int main(int argc, char** argv)
+/*
+int main(int argc, char** argv)
 {
 	glutInit(&argc, argv);
 	glutInitWindowSize(320, 320);
