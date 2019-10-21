@@ -13,10 +13,11 @@ void displayRotation(void)
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	glPushMatrix();
+	glRotatef(ir, 0, 0, 1);
 	glBegin(GL_LINES);
 	glColor3f(255, 0, 0);
 
-	glRotatef(ir, 0, 0, 1);
+	
 
 	/*// X
 	glVertex2f(0.4, -0.4);
