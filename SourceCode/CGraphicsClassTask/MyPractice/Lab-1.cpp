@@ -12,21 +12,21 @@ void displayMeLab1(void)
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	// Triangles
-	glBegin(GL_TRIANGLES);
+	/*glBegin(GL_TRIANGLES);
 	glColor3f(255, 0, 0);
 	glVertex2f(0.7, 0.0);
 	glVertex2d(0.45, 0.45);
 	glVertex2f(0.2, 0.0);
-	glEnd();
+	glEnd();*/
 
 	//Square
-	glBegin(GL_QUADS);
+	/*glBegin(GL_QUADS);
 	glColor3f(255, 0, 0);
 	glVertex2f(-0.2, 0.0);
 	glVertex2f(-0.2, 0.5);
 	glVertex2f(-0.7, 0.5);
 	glVertex2f(-0.7, 0.0);
-	glEnd();
+	glEnd();*/
 
 
 	//Square
@@ -43,7 +43,7 @@ void displayMeLab1(void)
 	glEnd();*/
 
 	//Line
-	glBegin(GL_LINES);
+	/*glBegin(GL_LINES);
 	glColor3f(255, 0, 0);
 
 	glVertex2f(-0.2, -0.5);
@@ -54,25 +54,53 @@ void displayMeLab1(void)
 
 	glVertex2f(-0.2, -0.1);
 	glVertex2f(-0.7, -0.1);
-	glEnd();
+	glEnd();*/
 
 
 	//Point
-	/*glPointSize(1);
-	glBegin(GL_POINT);
+	
+	/*glBegin(GL_POINT);
 	glColor3f(255, 0, 0);
+	//glPointSize(0.9);
 	glVertex2f(-0.2, -0.7);
 	glEnd();*/
 
+	glBegin(GL_POINTS);
+	glColor3f(255, 0, 0);
+	float pointXIncrease = 2.0 / 100;
+	float pointX = -1;
+	float pointY = 0.9;
+
+
+	for (int i=0;i<100;i++)
+	{
+		if (i%2==0)
+		{
+			pointY = 0.7;
+		}
+		else
+		{
+			pointY = 0.9;
+		}
+
+		glVertex2f(pointX, pointY);
+		pointX += pointXIncrease;
+	}
+
+	glEnd();
+
+
+
 	//Polygon
-	glBegin(GL_POLYGON);
+	/*glBegin(GL_POLYGON);
 	glColor3f(255, 0, 0);
 	glVertex2f(0.7, -0.5);
 	glVertex2d(0.45, -0.2);
 	glVertex2f(0.2, -0.2);
 	glVertex2f(0.1, -0.5);
 	glVertex2f(0.4, -0.7);
-	glEnd();
+
+	glEnd();*/
 
 
 

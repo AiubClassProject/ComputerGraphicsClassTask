@@ -13,54 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Final">
+      <UniqueIdentifier>{8abc3e5e-1008-42d3-b513-4aa55790b78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mid">
+      <UniqueIdentifier>{40a1247a-40cf-492c-af23-3b6fafe5f38e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Assignment-2.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-1.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-2-Task1.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-2-Task2.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-3-Task-1-circle.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-3-Task-2-TriangleFan.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-3-Task-3-AirportView.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-4-Task-1-Translate.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab-4-Task-2-Rotation.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="MidLabExam.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPractice.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment-1.cpp">
+      <Filter>Source Files\Mid</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingAnimation.cpp">
+      <Filter>Source Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationControl.cpp">
+      <Filter>Source Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment-F-1.cpp">
+      <Filter>Source Files\Final</Filter>
+    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MyPractice.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GFinalProgect.cpp">
+      <Filter>Source Files\Final</Filter>
     </ClCompile>
-    <ClCompile Include="Lab-1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-2-Task2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-2-Task1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-3-Task-1-circle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-3-Task-2-TriangleFan.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-3-Task-3-AirportView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-4-Task-1-Translate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-4-Task-2-Rotation.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="TestClock.cpp">
+      <Filter>Source Files\Mid</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
