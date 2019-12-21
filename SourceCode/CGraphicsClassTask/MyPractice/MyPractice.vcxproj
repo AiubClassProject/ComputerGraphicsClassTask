@@ -91,6 +91,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -145,30 +146,13 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AnimationControl.cpp" />
-    <ClCompile Include="Assignment-1.cpp" />
-    <ClCompile Include="Assignment-2.cpp" />
-    <ClCompile Include="Assignment-F-1.cpp" />
-    <ClCompile Include="GFinalProgect.cpp" />
-    <ClCompile Include="Lab-1.cpp" />
-    <ClCompile Include="Lab-2-Task1.cpp" />
-    <ClCompile Include="Lab-2-Task2.cpp" />
-    <ClCompile Include="Lab-3-Task-1-circle.cpp" />
-    <ClCompile Include="Lab-3-Task-2-TriangleFan.cpp" />
-    <ClCompile Include="Lab-3-Task-3-AirportView.cpp" />
-    <ClCompile Include="Lab-4-Task-1-Translate.cpp" />
-    <ClCompile Include="Lab-4-Task-2-Rotation.cpp" />
-    <ClCompile Include="MidLabExam.cpp" />
-    <ClCompile Include="MovingAnimation.cpp" />
-    <ClCompile Include="MyPractice.cpp" />
+    <ClCompile Include="Project.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Test.cpp" />
-    <ClCompile Include="TestClock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -19,6 +19,15 @@
     <Filter Include="Source Files\Mid">
       <UniqueIdentifier>{40a1247a-40cf-492c-af23-3b6fafe5f38e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Final\Assignment">
+      <UniqueIdentifier>{a5e91563-baad-41b6-9beb-6ad3f5953115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Final\Assignment\Assig2">
+      <UniqueIdentifier>{4e9bf82a-5189-49b3-800d-53587b6dd7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Project">
+      <UniqueIdentifier>{ff8c5f3c-a154-4af7-bb86-0ec80c3b33de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,62 +41,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment-2.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-1.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-2-Task1.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-2-Task2.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-3-Task-1-circle.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-3-Task-2-TriangleFan.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-3-Task-3-AirportView.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-4-Task-1-Translate.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Lab-4-Task-2-Rotation.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="MidLabExam.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="MyPractice.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-1.cpp">
-      <Filter>Source Files\Mid</Filter>
-    </ClCompile>
-    <ClCompile Include="MovingAnimation.cpp">
-      <Filter>Source Files\Final</Filter>
-    </ClCompile>
-    <ClCompile Include="Test.cpp">
-      <Filter>Source Files\Final</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationControl.cpp">
-      <Filter>Source Files\Final</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-F-1.cpp">
-      <Filter>Source Files\Final</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GFinalProgect.cpp">
-      <Filter>Source Files\Final</Filter>
-    </ClCompile>
-    <ClCompile Include="TestClock.cpp">
-      <Filter>Source Files\Mid</Filter>
+    <ClCompile Include="Project.cpp">
+      <Filter>Source Files\Project</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
